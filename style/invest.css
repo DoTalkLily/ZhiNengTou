@@ -1,0 +1,893 @@
+@charset "utf-8";
+.common div{
+    text-align: left;
+}
+em{
+    font-style: normal;
+}
+/*通用高度*/
+.common{
+    height: 480px;
+    width: 100%;
+    background: #fff;
+}
+/*通用宽高*/
+.common_h{
+    height: 480px;
+    width: 1024px;
+    margin: 0px auto;
+}
+/*通用标题*/
+.common_t{
+    font-size: 45px;
+    padding-top: 60px;
+    padding-left: 20px;
+}
+/*白色标题*/
+.w{
+    color: white;
+}
+/*黑色标题*/
+.b{
+    color: #353C49;
+}
+.h_15{
+    height: 15px;
+}
+/************************************智能投的特点开始*/
+.character{
+    background: #EF562A;
+}
+.character .character_con{
+    width: 1024px;
+    height: 230px;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+.character .character_con_com{
+    float: left;
+    width: 204px;
+    color: #FFFFFF;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 195px;
+}
+.character .character_con ul li{
+    float: left;
+    color: #FFFFFF;
+    font-size: 22px;
+}
+/*背景图*/
+.character .c_1{
+    background: url(../image/invest/character_1.png) center top no-repeat;
+}
+.character .c_2{
+    background: url(../image/invest/character_2.png) center top no-repeat;
+}
+.character .c_3{
+    background: url(../image/invest/character_3.png) center top no-repeat;
+}
+.character .c_4{
+    background: url(../image/invest/character_4.png) center top no-repeat;
+}
+.character .c_5{
+    background: url(../image/invest/character_5.png) center top no-repeat;
+}
+
+/************************************智能投的产品开始*/
+.products{
+    height: 560px;
+}
+.products .products_con{
+    width: 1024px;
+    height: 260px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.products_con .products_con_con{
+    float: left;
+    width: 232px;
+    height: 256px;
+    text-indent: 1em;
+    color: white;
+    line-height: 64px;
+    border: 2px solid #FF6E3B;
+    border-radius: 2px;
+    letter-spacing: 1px;
+}
+.products .m_50{
+    margin-right: 18px;
+    _margin: 5px;
+}
+.products_con_con .s{
+    border-bottom: 2px dashed #FEBC7B;
+}
+/*中间上部小模块*/
+.products_con_con_top{
+    width: 232px;
+    height: 64px;
+    color: #FFFFFF;
+    font-size: 28px;
+    letter-spacing: 1px;
+    background: #FF6F1B;
+}
+.products_con_con_top a{
+    color: #ffffff;
+}
+.products_con_con_top span{
+    font-size: 30px;
+    margin-right: 10px;
+}
+/*中间单个小模块*/
+.products_con_con_con{
+    width: 232px;
+    height: 64px;
+    color: #5F5F5F;
+    position: relative;
+}
+.products_con_con_con p{
+    font-size: 18px;
+}
+.products_con_con_con span{
+    font-size: 24px;
+}
+.products_con_con_con .p_a{
+    top: 0px;
+    left: 90px;
+    font-size: 14px;
+    display: block;
+    position: absolute;
+}
+.products_con_con_con .p_a_b{
+    top: 0px;
+    left: 90px;
+    display: block;
+    font-size: 16px;
+    position: absolute;
+    letter-spacing: 0px;
+}
+.products_con_con_con .p_a_b span{
+    color: #FF6F1B;
+    font-size: 18px;
+    font-family: Helvetica;
+}
+/*购买按钮*/
+.products .products_buy{
+    padding-left: 20px;
+    width: 1024px;
+    height: 60px;
+    padding-top: 30px;
+}
+.products_buy .products_buy_btn{
+    float: left;
+    width: 236px;
+    height: 40px;
+    text-align: center;
+}
+.products_buy .products_buy_btn a{
+    color: #fff;
+    display: block;
+    width: 158px;
+    height: 40px;
+    font-size: 23px;
+    margin-left: 38px;
+    line-height: 40px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    border-radius: 2px;
+    background: #FF6F1B;
+}
+.products_buy .products_buy_btn a:hover{
+    border-radius: 2px;
+    background: #FF9000;
+}
+.m_50{
+    margin-right: 18px;
+    _margin: 5px;
+}
+/************************************投资效果开始*/
+.effect{
+    background: #ffd83e;
+}
+.effect .effect_con{
+    width: 944px;
+    height: 230px;
+    color: #9B5A24;
+    padding-top: 40px;
+    text-align: center;
+    padding-left: 50px;
+}
+.effect .effect_con_com{
+    float: left;
+    width: 175px;
+    height: 30px;
+    font-size: 21px;
+    padding-top: 200px;
+}
+.effect .effect_con_com p span{
+    font-size: 26px;
+    font-weight: 700;
+}
+.effect .m_r{
+    margin-right: 81px;
+}
+/*背景图*/
+.effect .effect_con .e_1{
+    background: url(../image/invest/effect_1.png) no-repeat;
+}
+.effect .effect_con .e_2{
+    background: url(../image/invest/effect_2.png) no-repeat;
+}
+.effect .effect_con .e_3{
+    background: url(../image/invest/effect_3.png) no-repeat;
+}
+.effect .effect_con .e_4{
+    background: url(../image/invest/effect_4.png) no-repeat;
+}
+
+/************************************往期产品开始*/
+.period{
+}
+.period .period_con{
+    width: 1024px;
+    height: 280px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.period   table{
+    width: 1024px;
+    text-align: center;
+}
+.period .period_con  th{
+    height: 30px;
+    color: #444444;
+    font-size: 18px;
+    font-weight: 400;
+    background: #E0E0E0;
+}
+.period .period_con td{
+    position: relative;
+}
+.period .period_con  td span{
+    top: 8px;
+    left: 15px;
+    width: 33px;
+    height: 33px;
+    position: absolute;
+}
+.period .period_con .p_s1{
+    background: url(../image/invest/period_1.png) no-repeat;
+}
+.period .period_con.p_s2{
+    background: url(../image/invest/period_2.png) no-repeat;
+}
+.period .period_con td{
+    height: 45px;
+    font-size: 18px;
+    color: #555555;
+}
+.period .period_con  .r{
+    color: #900000;
+}
+.period .period_con .p_b{
+    border-bottom: 1px dashed #F38C92;
+}
+
+/************************************土豪排行榜开始*/
+.ranking{
+    background: #FD5F23;
+}
+.ranking .ranking_con{
+    width: 1024px;
+    height: 280px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.ranking .ranking_con table{
+    width: 1024px;
+    font-size: 22px;
+    text-align: center;
+}
+.ranking .ranking_con table tr td{
+    font-size: 18px;
+}
+/*字体颜色*/
+.ranking .ranking_con table .r_w{
+    color: #FFFFFF;
+}
+.ranking .ranking_con table .r_h{
+    color: #555555;
+}
+/*表格深浅背景色*/
+.ranking .ranking_con table .r_q{
+    background: #FF8B59;
+}
+.ranking .ranking_con table .r_s{
+    background: #FF7E51;
+}
+.ranking .ranking_con  th{
+    height: 30px;
+    color: #444444;
+    font-weight: 400;
+    background: #FFDEC6;
+    border-right: 4px solid #FD5F23;
+    border-bottom: 10px solid #FD5F23;
+}
+.ranking .ranking_con  .t_b{
+    border-right: 4px solid #FD5F23;
+}
+
+/**invest detail**/
+.invest{
+    background-color: #EFF3F6;
+    padding:50px 0;
+    margin-top: 30px;
+}
+.invest-content{
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid #888B92;
+    width: 1000px;
+    min-height: 750px;
+    height: auto;
+}
+.invest-title {
+    position: relative;
+    height: 70px;
+    overflow: hidden;
+    margin: 0 30px;
+}
+.invest-title .toback {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    z-index: 5;
+    height: 30px;
+    line-height: 30px;
+    width: 60px;
+    background: #fe6e00;
+    text-align: center;
+    text-indent: 3px;
+    color: #fff;
+}
+.icons{
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    text-indent: -9999px;
+    display: inline-block;
+    background: url(../image/common/sprites.png) no-repeat;
+}
+.invest .arrow-gray-dotl {
+    background-position: -82px -143px;
+    width: 7px;
+    height: 11px;
+    float: left;
+    margin: 10px -10px 0 10px;
+}
+.invest-title h2{
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+    color: #69737b;
+    position: absolute;
+    left: 70px;
+    z-index: 3;
+    padding: 0 10px;
+    background: #fff;
+    font-weight: bold;
+}
+.invest-title .login-tip {
+    font-size: 14px;
+    color: #8a949c;
+    left: auto;
+    right: 20px;
+    height: 30px;
+    line-height: 30px;
+    top: 20px;
+    z-index: 3;
+    padding: 0 10px;
+    background: #e8ecef;
+    position: absolute;
+}
+.login-tip b{
+    font-weight: normal;
+    padding-right: 1px;
+    overflow: hidden;
+}
+.login-tip .icons {
+    width: 16px;
+    height: 16px;
+    background-position: -501px -100px;
+    vertical-align: middle;
+    margin-top: -3px;
+    margin-left: 4px;
+}
+.login-tip span {
+    font-family: Tahoma,Geneva,sans-serif;
+    color: #475058;
+}
+.invest-top{
+    overflow: hidden;
+    zoom: 1;
+    margin: 15px 30px 40px;
+}
+.profit-plan,.invest-sum-plan {
+    min-height: 360px;
+    height: auto !important;
+    height: 360px;
+    _overflow: visible;
+    -moz-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #d3d8dc;
+
+}
+.profit-plan{
+    float: left;
+    width: 63%;
+}
+.invest-sum-plan{
+    float: right;
+    width: 33%;
+}
+.invest-top .head{
+    height: 50px;
+    line-height: 50px;
+    background: #f0f5f7;
+    border-bottom: 1px solid #d3d8dc;
+    padding: 0 15px;
+    position: relative;
+    font-size: 16px;
+    font-weight: bold;
+    color: #475058;
+}
+.invest-top div{
+    text-align: left;
+}
+.profit {
+    margin-top:50px;
+    height: 80px;
+}
+.profit dl {
+    float: left;
+    border-left: 1px solid #d3d8dc;
+    margin-left: -2px;
+    height: 80px;
+    width: 23%;
+    position: relative;
+}
+.profit .f1 {
+    width: 48%;
+}
+.profit .f1 em{
+    font-size: 30px;
+}
+.profit .f2{
+    width:29%;
+}
+.profit dt{
+    padding-left: 20px;
+    font-size: 13px;
+    font-weight: normal;
+}
+.profit dd {
+    font-size: 20px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    color: #fe6e00;
+}
+dd span{
+    font-size: 22px;
+}
+.profit em {
+    font-family: Tahoma,Geneva,sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    padding-right: 5px;
+}
+.profit dt .icons {
+    position: absolute;
+    left: auto;
+    top: 2px;
+    margin-left: 3px;
+}
+.yhelp {
+    background-position: -167px -98px;
+    width: 12px;
+    height: 12px;
+}
+.profit .persent{
+    font-size: 33px;
+    padding-right: 0;
+    line-height: 45px;
+}
+.profit .persent-tag{
+    font-size:15px;
+    font-weight:400;
+}
+.working-day {
+    padding: 30px 0 68px 30px;
+    height: 50px;
+    color: #8a949c;
+}
+.expl {
+    padding: 20px 0;
+    height: 70px;
+    border-top: 1px solid #d3d8dc;
+}
+.expl li {
+    float: left;
+    text-align: center;
+    line-height: 30px;
+    border-left: 1px solid #d3d8dc;
+    width: 33%;
+    margin-left: -2px;
+}
+.expl .per {
+    height: 10px;
+    width: 60%;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+    float: left;
+    display: inline;
+    background: #e8ecef;
+    margin: 10px 0 0 20px;
+    border-radius: 15px;
+}
+.expl .per div {
+    background: #18b160;
+    height: 10px;
+    float: left;
+    width: 0;
+    border-radius: 15px;
+}
+.expl .vouch {
+    color: #1bb363;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    padding-left: 18px;
+}
+.expl .vouch .icons {
+    position: absolute;
+    left: 0;
+    top: 2px;
+}
+.ver-green-down {
+    background-position: -101px -129px;
+    width: 14px;
+    height: 16px;
+}
+.invest-top .head em{
+    font-weight: normal;
+    font-size:12px;
+    color: #8a949c;
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+.input-sum {
+    height: 46px;
+    padding: 9px 0 0 30px;
+    line-height: 46px;
+    margin-bottom: 12px;
+}
+.input-sum .input {
+    padding: 12px 5px;
+    width: 80%;
+    color: #999;
+    font-size: 13px;
+    background: #e5e5e5;
+    border: none;
+    border-radius: 0px;
+    line-height: 13px;
+}
+.invest-sum-plan .exp {
+    height: auto;
+    overflow: hidden;
+    zoom: 1;
+    font-size: 1.1em;
+    line-height: 20px;
+    padding-bottom: 6px;
+    position: relative;
+    padding-left: 30px;
+}
+.invest-sum-plan .exp em {
+    color: #fc8936;
+    font-size: 16px;
+    font-family: Tahoma,Geneva,sans-serif;
+}
+.var-code {
+    padding-left: 30px;
+    height: 42px;
+    line-height: 32px;
+    position: relative;
+}
+.var-code .var_code_png {
+    top: 5px;
+    left: 35px;
+    display: block;
+    width: 41px;
+    height: 32px;
+    position: absolute;
+    background: url(../image/invest/input_accesscode_icon4.png) no-repeat;
+}
+.var-code input {
+    width: 112px;
+    height: 41px;
+    line-height: 19px;
+    padding: 5px 5px 5px 50px;
+    background: #e5e5e5;
+    border: none;
+    border-radius: 0;
+}
+.var-code input,.var-code img {
+    float: left;
+    display: inline;
+    margin-right: 5px;
+}
+.verifycode{
+    height: 41px;
+    width: 89px;
+}
+.refreshCode {
+    height: 34px;
+    width: 30px;
+    float: left;
+    line-height: normal;
+    background: #e8ecef;
+    text-align: center;
+    position: relative;
+    font-size: 12px;
+    color: #475058;
+    margin-top: 3px;
+    padding: 1px 0 1px;
+}
+.refresh-todo {
+    background-position: -102px -148px;
+    width: 12px;
+    height: 12px;
+}
+.invest-sum .refreshcode i {
+    position: absolute;
+    left: 8px;
+    top: 3px;
+}
+.refreshcode b {
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    width: 100%;
+    font-weight: normal;
+}
+.agreement {
+    height: 43px;
+    line-height: 43px;
+    position: relative;
+    padding-left: 52px;
+}
+.agreement .yCheckbox {
+    position: absolute;
+    left: 30px;
+    top: 12px;
+    width: 18px;
+    height: 18px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.yCheckbox .ico, .yRadio .ico {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+    background: url(../image/invest/fs.png) no-repeat 0 -40px;
+}
+.yCheckbox .selected {
+    background-position: 0 -20px;
+}
+.invest-sum-plan .gbtn:hover {
+    background: #fe8e00;
+}
+.invest-sum-plan .gbtn {
+    height: 50px;
+    display: block;
+    margin: 0 30px;
+    padding: 0;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 20px;
+    background: #fe6e00;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.error {
+    padding: 0 0 5px 30px;
+    color: #d35353;
+    margin-top: -10px;
+    display: none
+}
+.jTabs {
+    height: 50px;
+    position: relative;
+    z-index: 5;
+    margin-bottom: -1px;
+}
+.jTabs ul{
+    height: 50px;
+    margin-left: 30px;
+}
+.jTabs li {
+    height: 49px;
+    padding: 13px 40px 0 40px;
+    float: left;
+    display: inline;
+    border: 1px solid #d0d5d9;
+    border-bottom: 0;
+    margin-right: 40px;
+    background: #e6eeee;
+    font-size: 16px;
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+}
+.jTabs li.active {
+    background: #fff;
+    height: 50px;
+    border: 1px solid #d0d5d9;
+    border-bottom: 0;
+}
+#tabs li a,#tabs li a:hover{
+    color: #475058;
+    text-decoration: none;
+    border:none
+}
+#tabs .active a, #tabs .active a:hover{
+    color: #fe6e00;
+}
+.nav-tabs{
+    left: 30px;
+}
+.jTabs li .r5 {
+    color: #fff;
+    height: 16px;
+    line-height: 16px;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 0 6px;
+    background: #a1acb4;
+    display: inline-block;
+    margin-left: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.jTabs li.active .r5 {
+    background: #fe6e00;
+}
+.model-auto {
+    border-top: 1px solid #d0d5d9;
+    overflow: hidden;
+    padding: 0 28px;
+}
+.model-auto .jPanel {
+    overflow: hidden;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+.model-box {
+    border: 1px solid #d3d8dc;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.asked-items {
+    overflow: hidden;
+    margin: 0 5px;
+    padding-bottom: 30px;
+    position: relative;
+    color: #69737b;
+    font-size: 14px;
+    text-align: left;
+}
+.asked-items dt {
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.asked-items dd {
+    color: #a1acb4;
+}
+.rec-plan-items .title {
+    font-size: 13px;
+    background: #f0f5f7;
+}
+.rec-plan-items .items {
+    height: 50px;
+    line-height: 50px;
+    overflow: hidden;
+    padding-left: 30px;
+    border-bottom: 1px solid #e9edef;
+}
+.rec-plan-items li {
+    float: left;
+    display: inline;
+    width: 25%;
+    height: 50px;
+    position: relative;
+    text-align: left;
+}
+.rec-plan-items .items {
+    height: 50px;
+    line-height: 50px;
+    overflow: hidden;
+    padding-left: 30px;
+    border-bottom: 1px solid #e9edef;
+}
+.rec-plan-items li {
+    float: left;
+    width: 25%;
+    height: 50px;
+    text-align: center;
+}
+.fl {
+    float: left;
+    display: inline;
+}
+.rec-plan-items li.col_4 {
+    width: 24%;
+    text-align: center;
+}
+#invest{
+    padding-bottom: 55px;
+}
+.pagination{
+    position: absolute;
+    bottom: 9px;
+    right: 2px;
+}
+.jPanel .title{
+    font-size: 18px;
+    font-family: "仿宋";
+    font-weight: bold;
+}
+.jPanel table{
+    width: 100%;
+    color: #69737b;
+    text-align: left;
+    border-right:1px solid #7f7f7f;
+    border-bottom:1px solid #7f7f7f;
+    font-size: 1.2em;
+}
+.jPanel table td{
+    border-left:1px solid #7f7f7f;
+    border-top:1px solid #7f7f7f;
+    padding: 4px;
+}
+table .t1{
+    font-weight: bold;
+    width: 20%;
+}
+.indent{
+    text-indent: 2.6em;
+}
+.question li{
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    line-height: 22px;
+    margin-left: 39px;
+}
+.charts{
+    min-width: 900px;
+}

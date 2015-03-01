@@ -1,0 +1,384 @@
+@charset "utf-8";
+/*通用高度*/
+.common{
+    height: 480px;
+    width: 100%;
+    background: #fff;
+    text-align: left;
+}
+/*通用宽高*/
+.common_h{
+    height: 480px;
+    width: 1024px;
+    margin: 0px auto;
+    position: relative;
+}
+/*通用标题*/
+.common .common_t{
+    font-size: 45px;
+    padding-top: 60px;
+    padding-left: 20px;
+}
+/*白色标题*/
+.w{
+    color: white;
+}
+/*黑色标题*/
+.b{
+    color: #353C49;
+}
+.m_5{
+    margin-top: 5px;
+}
+.m_10{
+    margin-top: 10px;
+}
+/************************************什么是智能投开始*/
+.introduce{
+    background: #96CD27;
+    position: relative;
+}
+.introduce .int{
+    padding-top: 40px;
+}
+.introduce p{
+    z-index: 3;
+    margin: 0px;
+    color: white;
+    width: 840px;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 60px;
+    padding-left: 20px;
+    position: relative;
+}
+.introduce p span{
+    color: #F6EF00;
+}
+.introduce .introduce_d{
+    top: 40px;
+    right: 0px;
+    z-index: 1;
+    width: 391px;
+    height: 430px;
+    position: absolute;
+    background: url(../image/guideline/introduce.png);
+}
+
+/************************************智能投的特点开始*/
+.charact{
+}
+.charact ul{
+    width: 1024px;
+    height: 230px;
+    padding-top: 60px;
+    padding-left: 20px;
+}
+.charact  li{
+    float: left;
+    width: 170px;
+    height: 30px;
+    color: #FF6600;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 200px;
+    margin-right: 30px;
+}
+/*背景图*/
+.charact  .c_1{
+        background: url(../image/guideline/charact_1.png) no-repeat;
+}
+.charact  .c_2{
+    background: url(../image/guideline/charact_2.png) no-repeat;
+}
+.charact  .c_3{
+    background: url(../image/guideline/charact_3.png) no-repeat;
+}
+.charact  .c_4{
+    background: url(../image/guideline/charact_4.png) no-repeat;
+}
+.charact  .c_5{
+    background: url(../image/guideline/charact_5.png) no-repeat;
+}
+/************************************智能投的业绩开始*/
+.perfor{
+    background: #ffd83e;
+}
+.perfor ul{
+    width: 1024px;
+    height: 270px;
+    color: #9B5A24;
+    padding-top: 40px;
+    text-align: center;
+    padding-left: 20px;
+}
+.perfor li{
+    float: left;
+    width: 175px;
+    height: 70px;
+    font-size: 24px;
+    padding-top: 200px;
+}
+.perfor .num{
+    font-size: 30px;
+}
+.perfor  .m_r{
+    margin-right: 225px;
+}
+/*背景图*/
+.perfor  .p_1{
+    background: url(../image/guideline/perfor_1.png) no-repeat;
+}
+.perfor  .p_2{
+    background: url(../image/guideline/perfor_2.png) no-repeat;
+}
+.perfor  .p_3{
+    background: url(../image/guideline/perfor_3.png) no-repeat;
+}
+/************************************如何帮您挣钱开始*/
+.earn{
+    color: #666666;
+    font-size: 25px;
+}
+.earn .earn_con{
+    width: 1024px;
+    height: 240px;
+    padding-top: 60px;
+    padding-left: 20px;
+}
+.earn .earn_con .earn_con_con{
+    float: left;
+    width: 770px;
+    height: 240px;
+    padding-left: 230px;
+    background: url(../image/guideline/earn_1.png) no-repeat;
+}
+.earn .earn_con_con_top{
+    margin: 0px;
+    width: 606px;
+    height: 120px;
+    font-size: 24px;
+    line-height: 120px;
+    padding-right: 124px;
+    background-position: 604px center;
+}
+/*背景图*/
+.et_1{
+    background: url(../image/guideline/earn_4.png) no-repeat;
+}
+.et_2{
+    background: url(../image/guideline/earn_5.png) no-repeat;
+}
+.earn  .top_1{
+    float: left;
+    width: 250px;
+    height: 120px;
+    display: block;
+    text-align: right;
+    letter-spacing: 1px;
+    margin-right: 50px;
+}
+.earn .top_1 span{
+    color: #FF6600;
+    font-size: 30px;
+    font-family: Helvetica;
+}
+.earn .top_2{
+    float: left;
+    width: 254px;
+    height: 120px;
+    display: block;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: 2px;
+    background-position: center;
+}
+/*背景图*/
+.t_1{
+    background: url(../image/guideline/earn_2.png) no-repeat;
+}
+.t_2{
+    background: url(../image/guideline/earn_3.png) no-repeat;
+}
+/************************************产品特点开始*/
+.char{
+    background: #8BC442;
+}
+.char .char_title{
+    font-size: 45px;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+.char .char_con{
+    width: 1024px;
+    height: 280px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.char .char_con_con{
+    float: left;
+    width: 240px;
+    height: 280px;
+}
+.char .char_con .m_r{
+    margin-right: 20px;
+}
+.char .char_con_con_top{
+    width: 170px;
+    height: 30px;
+    color: #555;
+    overflow: hidden;
+    font-size: 28px;
+    margin: 0px auto;
+    position: relative;
+    text-align: center;
+    padding-bottom: 185px;
+}
+.char  .char_2_a{
+    top: 45px;
+    width: 170px;
+    height: 170px;
+    overflow: hidden;
+    position: absolute;
+}
+.char  .char_2_a_c{
+    top: 30px;
+    left: 60px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    z-index: 12;
+}
+.char .char_2_a_c1{
+    top: 26px;
+    left: 56px;
+    width: 22px;
+    height: 22px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: block;
+    background: #8CC744;
+    position: absolute;
+    opacity: 0;
+    z-index: 11;
+}
+.char .char_2_a_c2{
+    top: 22px;
+    left: 52px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: block;
+    background: #8CC744;
+    position: absolute;
+    opacity: 0;
+    z-index: 10;
+}
+.char .char_2_a_c3{
+    top: 18px;
+    left: 48px;
+    width: 38px;
+    height: 38px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: block;
+    background: #8CC744;
+    position: absolute;
+    opacity: 0;
+    z-index: 9;
+}
+.char .char_2_c{
+    top: 85px;
+    left: 28px;
+    width: 0px;
+    height: 80px;
+    background: #fff;
+    position: absolute;
+    z-index: 3;
+}
+.char .char_2_e{
+    top: 0px;
+    left: 0px;
+    width: 170px;
+    height: 215px;
+    position: absolute;
+    z-index: 5;
+}
+.char .char_con_con_bottom{
+    color: #EEF5E9;
+    font-size: 18px;
+    padding-top: 15px;
+    text-align: center;
+}
+.char .char_con_con_bottom span{
+    font-size: 24px;
+    font-weight: 700;
+}
+/*背景图*/
+.char_1{
+    background: url(../image/guideline/char_1.png) no-repeat bottom;
+}
+.char_2{
+    background: url(../image/guideline/char_2.png) no-repeat bottom;
+}
+.char_3{
+    background: url(../image/guideline/char_3.png) no-repeat bottom;
+}
+.char_4{
+    background: url(../image/guideline/char_4.png) no-repeat bottom;
+}
+/************************************现在购买开始*/
+.buy{
+    height: 200px;
+    width: 100%;
+    background: #fff;
+}
+.buy .buy_h{
+    width: 1024px;
+    height: 200px;
+    margin: 0px auto;
+    padding-top: 65px;
+    padding-left: 20px;
+}
+.buy .buy_h  a{
+    float: left;
+    height: 70px;
+    width: 470px;
+    color: #FFFFFF;
+    display: block;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 75px;
+    border-radius: 2px;
+    text-align: center;
+    background: #FF9600;
+    letter-spacing: 5px;
+}
+.buy .buy_h  a:hover{
+    background: #FF6600;
+}
+.buy .buy_h .buy_h_call{
+    float: left;
+    color: #FE9805;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    padding-left: 110px;
+    letter-spacing: 1px;
+}
+.buy .buy_h .buy_h_call p{
+    height: 35px;
+    display: block;
+    padding-left: 60px;
+    font-family: Helvetica;
+}
+.b_1{
+    background: url(../image/guideline/contactemail.png) no-repeat 0px -5px;
+}
+.b_2{
+    line-height: 52px;
+    background: url(../image/guideline/contactphone.png) no-repeat;
+}

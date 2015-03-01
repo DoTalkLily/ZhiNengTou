@@ -1,0 +1,165 @@
+.reset{
+    background-color: #EFF3F6;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.reset-content {
+    margin: 0 auto 50px;
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid #888B92;
+    width: 1000px;
+    min-height: 750px;
+    height: auto;
+    height: 750px;
+}
+.radius5{
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.reset .title{
+    position: relative;
+    height: 40px;
+    border-bottom: 1px solid #e7ecee;
+    clear: both;
+    margin: 0 30px;
+}
+.title h2 {
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+    color: #69737b;
+    position: absolute;
+    left: 20px;
+    top: 24px;
+    z-index: 3;
+    padding: 0 15px;
+    background: #fff;
+}
+.reg-steps {
+    width: 920px;
+    height: 54px;
+    margin: 35px auto 0;
+}
+.reg-steps li {
+    float: left;
+    width: 230px;
+    height: 54px;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 54px;
+    background: #f0f4f7 url(../image/account/reset_steps.png) no-repeat right 0;
+}
+.reg-steps .step-last{
+    background: #F0F4F7;
+    width: 215px;
+}
+.reg-steps .dot24 {
+    text-indent: 0;
+    line-height: 24px;
+    text-align: center;
+    font-size: 18px;
+    width: 24px;
+    height: 24px;
+    font-style: normal;
+    vertical-align: middle;
+    margin-top: -3px;
+    margin-right: 9px;
+    background-position: -157px -71px;
+}
+.icons {
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -9999px;
+    display: inline-block;
+    background: url(../image/common/sprites.png) no-repeat;
+}
+.active{
+    color: #fe6e00;
+}
+.reg-items input {
+    width: 342px;
+    color: #8a949c;
+    float: left;
+    height: 18px;
+    line-height: 18px;
+    border: none;
+    background-color: #e5e5e5;
+    padding: 11px 5px 11px 50px;
+}
+.mobile {
+    background: url(../image/account/reg_cellphone.png) no-repeat left center;
+}
+.reg-items li {
+    width: 617px;
+    float: left;
+    margin-top: 20px;
+}
+.reg-items .authcode {
+    width: 196px;
+}
+.authcode{
+    background: url(../image/account/reg_accesscode.png) no-repeat left center;
+}
+.verifycode {
+    width: 90px;
+    height: 40px;
+    float: left;
+    margin-left: 5px;
+}
+.reg-items {
+    width: 395px;
+    height: 409px;
+    min-height: 409px;
+    margin: -7px auto 0;
+}
+.reg-items .refcode {
+    margin-left: 8px;
+    color: #349cd8;
+    height: 37px;
+    width: 42px;
+    float: left;
+    background: #e8ecef;
+    text-align: center;
+    padding-top: 3px;
+}
+.refresh-todo {
+    background-position: -102px -148px;
+    width: 12px;
+    height: 12px;
+}
+.reset-items{
+    margin-top: 32px;
+}
+.reset-items li{
+    margin-top: 37px ;
+}
+.register-btn {
+    width: 394px;
+    height: 46px;
+    margin: 0px auto;
+    background: #FF6C00;
+    display: inline-block;
+    line-height: 46px;
+    color: #ffffff;
+    font-size: 21px;
+    float: left;
+    border: 1px solid #FFD8AE;
+}
+.register-btn:hover{
+    background-color: #FF8500;
+    color: #ffffff;
+}
+.green-proper {
+    background-position: -116px -144px;
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin-top: 10px;
+}

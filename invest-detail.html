@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head lang="en">
+    <title>智能投</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <link rel="Shortcut Icon" href="image/common/favicon.ico"/>
+    <!-- common styles -->
+    <link rel="stylesheet" type="text/css" href="style/common/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="style/common/common.css"/>
+    <!-- common scripts -->
+    <script type="text/javascript" src="js/common/jquery-1.11.2.min.js"></script>
+</head>
+<body>
+<!-- header -->
+<div class="header">
+    <div class="header-content">
+        <div class="header-left">
+            <span>客服热线</span>
+            <span class="header-num">400-666-6666</span>
+            <a href="#" class="header-help">帮助中心</a>
+        </div>
+        <div class="header-right">
+            <a href="/user-register" class="header-register">免费注册</a>
+            <a href="/user-login" class="header-login">登录</a>
+        </div>
+    </div>
+</div>
+<!-- EOF header -->
+<!-- nav -->
+<div class="nav">
+    <!-- logo -->
+    <div class="nav-logo">
+        <div class="logo">
+            <a href="/"><img src="image/common/logo.png" alt=""/></a>
+        </div>
+        <span>科技改变投资</span>
+    </div>
+    <!-- EOF logo -->
+    <!-- nav bar -->
+    <div class="nav-content">
+        <ul>
+            <li><a href="/" class="active">首页</a></li>
+            <li><a href="/">新手指引</a></li>
+            <li><a href="/">安全保障</a></li>
+            <li><a href="/">关于我们</a></li>
+            <li class="nav-invest"><a href="/">我要投资</a></li>
+        </ul>
+    </div>
+    <!-- EOF nav bar -->
+</div>
+<!-- EOF nav-->
+<!-- QQ service -->
+<!--除了登录注册 基本所有页面都有这块，所以建议后端用变量控制显示隐藏-->
+<div class="qqkefu">
+    <ul>
+        <li class="top">TOP<span></span></li>
+        <li class="qq_cza">
+            <span></span>
+            <a href="tencent://message/?uin=1467037393&amp;Site=http://127.0.0.1/&amp;Menu=yes">咨询</a>
+        </li>
+        <li class="qq_czb">
+            <span></span>
+
+            <div class="erweima">
+                <p><img src="http://www.zhinengtou.com/app/Tpl/yooli/img/common/20140417172111_3368.jpg"/>手机网站</p>
+
+                <p><img src="http://www.zhinengtou.com/app/Tpl/yooli/img/common/20140417172211_5092.jpg"/>关注企业微信</p>
+                <i class="arrow3"></i>
+            </div>
+        </li>
+    </ul>
+</div>
+<!--EOF QQ service -->
+
+
+<!--content -->
+<link rel="stylesheet" href="style/common/pagination.css" />
+<link rel="stylesheet" href="style/common/bootstrap.min.css"/>
+<link rel="stylesheet" href="style/invest.css"/>
+<div class="invest">
+<div class="invest-content">
+<div class="invest-title">
+    <a href="/invest" class="toback"><i class="icons arrow-gray-dotl"></i>返回</a>
+
+    <h2>产品详情</h2>
+
+    <div class="login-tip">
+        <!-- 如果还没登录 显示这里
+        <b>您尚未登录</b>  -->
+        可用余额 <span>￥11,999.00</span>
+        <a href="/user" class="icons"></a>
+    </div>
+</div>
+<div class="invest-top">
+    <div class="profit-plan">
+        <p class="head">金燕1号</p>
+        <!-- 利率的显示   start-->
+        <div class="profit">
+            <dl class="f1">
+                <dt>总额度</dt>
+                <dd>
+                    <span>￥</span>
+                    <em>10,000,000.00</em>
+                </dd>
+            </dl>
+            <dl class="f2">
+                <dt>年化收益率<a href="#" class="icons yhelp"  data-container="body" data-toggle="popover" data-placement="top" data-content="投资智能宝可获得的收益率，以年度百分比表示">帮助</a>
+                </dt>
+                <dd>
+                    <em class="persent">6~36</em>
+                    <em class="persent-tag">%</em>
+                </dd>
+            </dl>
+            <dl>
+                <dt>投资期限</dt>
+                <dd><em>3</em>个月</dd>
+            </dl>
+        </div>
+        <!--利率的显示  end-->
+        <p class="working-day">每工作日 10:30、14:30、20:00 更新总额度</p>
+
+        <div class="expl">
+            <ul>
+                <li class="ratio-per">
+                    <div class="per" data-rel="0">
+                        <div style="width: 0%;"></div>
+                    </div>
+                    <strong class="ratio">0%</strong>
+                </li>
+                <li>发布时间：2015-01-19</li>
+                <li><span class="vouch"><i class="icons ver-green-down"></i>100%本息担保</span></li>
+            </ul>
+        </div>
+    </div>
+    <div class="invest-sum-plan">
+        <p class="head">投资金额<em>可投￥ 9,944,800.00 元</em></p>
+        <div class="input-sum">
+            <input type="text" maxlength="10" class="input" placeholder="请输入 50~100000 的整数" id="investInput"/> 元
+        </div>
+        <p class="exp">预期收益 ¥ <em>0.00</em></p>
+        <div class="var-code">
+            <span class="var_code_png"></span>
+            <input type="text" id="authCode" name="authCode" class="input" maxlength="4" placeholder="验证码">
+            <img id="verifycode" src="/verify.php?w=89&amp;h=39rand=1" alt="验证码" title="验证码" class="verifycode">
+            <a href="#" class="refreshCode r3"><i class="icons refresh-todo"></i><p>刷新</p></a>
+        </div>
+        <div class="agreement">
+            <div class="yCheckbox">
+                <span id="agreeContract" class="ico selected"></span>
+            </div>
+            我同意<a href="#" style="color:#fe6e00;">《金燕1号协议》</a>
+        </div>
+        <div class="error">请输入验证码</div>
+        <a href="#" class="gbtn" id="yxtInvestBtn">我要投资</a>
+    </div>
+</div>
+<div class="jTabs" id="tabs">
+    <ul id="investTabs" class="nav-tabs" style="left:30px">
+        <li class="jTab active"><a href="#announce">收益&amp;公告</a></li>
+        <li class="jTab"><a href="#record">加入记录<span class="r5" id="investorCount">3</span></a></li>
+        <li class="jTab"><a href="#product">产品详情</a></li>
+        <li class="jTab"><a href="#question">问题解答</a></li>
+    </ul>
+</div>
+<div class="model-auto tab-content" >
+    <div class="jPanel tab-pane active" id="announce">
+        <div class="model-box">
+            <div id="charts"></div>
+            <dl class="asked-items">
+                <dt>1、产品发售公告。</dt>
+                <dd>智能投金燕1号保本型产品将于2015年1月23日9:30在智能投网站和智能投APP平台同步发售，发售规模1000万元，发售截止日2015年1月25日15:00。</dd>
+                <dd>若发售期产品未募集满1000万元规模，智能投将于25日当日将你的购买款退回到您的智能投账户，并按照银行活期利息支付发售期利息。</dd>
+                <dt>2、产品成立公告。</dt>
+                <dd>智能投金燕1号保本型产品于2015年1月25日15:00成立，规模1000万元，自2015年1月26日开始计息。</dd>
+            </dl>
+        </div>
+    </div>
+    <div class="jPanel tab-pane" id="record">
+        <div class="model-box rec-plan-items">
+            <ul class="items title">
+                <li>投资人</li>
+                <li>加入金额(￥)</li>
+                <li>加入时间</li>
+                <li>状态</li>
+            </ul>
+            <div id="invest"></div>
+            <div id="pagination" class="pagination"></div>
+        </div>
+    </div>
+    <div class="jPanel tab-pane" id="product">
+            <p class="title">智能投——金燕1号沪深300指数挂钩保本收益产品</p>
+            <table cellspacing="0" cellpadding="0">
+                <tbody>
+                <tr>
+                    <td class="t1">管理人</td>
+                    <td>北京智投道合投资管理有限公司（以下简称“智投道合”）</td>
+                </tr>
+                <tr>
+                    <td class="t1">托管人</td>
+                    <td>北京新浪支付科技有限公司</td>
+                </tr>
+                <tr>
+                    <td class="t1">管理期限</td>
+                    <td>90天</td>
+                </tr>
+                <tr>
+                    <td class="t1">发行期</td>
+                    <td>2014 年1月25 日至 2014 年1 月29 日</td>
+                </tr>
+                <tr>
+                    <td class="t1">计划成立日</td>
+                    <td>2014 年1月29 日</td>
+                </tr>
+                <tr>
+                    <td class="t1">可购买日</td>
+                    <td>
+                        <p>发行期：2014年1月25日9:00至2014年1月29日15:00。</p>
+                        <p>本产品成立日（含）至结束日之间（不含）的每个工作日15:00前均可购买（15:00之后的申请需求视同下一工作日提交）。</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="t1">份额面值</td>
+                    <td>人民币1.00元/份。</td>
+                </tr>
+                <tr>
+                    <td class="t1">购买金额</td>
+                    <td>人民币50元起，超出部分为50元的整数倍。</td>
+                </tr>
+                <tr>
+                    <td class="t1">投资范围</td>
+                    <td>本计划投资于北京捷越联合信息咨询有限公司发行的具有固定收益属性的债权项目，以及证券公司发行的场外期权等产品。</td>
+                </tr>
+                <tr>
+                    <td class="t1">投资比率</td>
+                    <td>
+                        <p>资产配置比率：</p>
+                        <p>（1）投资于北京捷越联合信息咨询有限公司发行的具有固定收益属性的债权产品：0-100%；</p>
+                        <p>（2）证券公司签发的挂钩沪深300指数的场外期权：0-10%；</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="t1">预期收益率</td>
+                    <td>
+                        <p><b>1、自成立日持有至到期日：预期年化收益率6%——36%。</b></p>
+                        <p>计算方式：</p>
+                        <p>（1）若沪深300指数的观察期价格曾经超过触碰价格，则本产品到期预期收益率为6%（年化）；</p>
+                        <p>（2）若沪深300指数的观察期价格未曾超过触碰价格，则本产品到期预期收益率为：</p>
+                        <p class="indent">预期收益率（年化）= 固定收益率（年化） + 浮动收益率 （年化）</p>
+                        <p class="indent">固定收益率（年化）＝6%</p>
+                        <p class="indent">浮动收益率（年化）＝最小值（30%，最大值（0，沪深300指数涨幅*4））</p>
+                        <p class="indent">其中，沪深300指数涨幅＝ （“沪深300”期末价格 / “沪深300”期初价格 - 1）×100%</p>
+
+                        <p>注：<br>
+                        1、触碰价格：期初价格的107.5% (精确到小数点后2位)。<br>
+                        2、观察期价格：从产品成立日北京时间下午15:00（含该时点）起直至到期日北京时间下午15:00（含该时点）止的连续时期的收盘价格。<br>
+                        3、收盘价格：上海证券交易所网页（http://www.sse.com.cn）公布沪深300指数收盘价；沪深300指数的证券代码为“000300”。<br>
+                        4、期初价格：产品成立日北京时间下午15:00沪深300指数的收盘价格。
+                        5、期末价格：产品到期日北京时间下午15:00沪深300指数的收盘价格。</p>
+                        <p><b>2、其他情况：预期年化收益率6%。</b></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>收益分配方式</td>
+                    <td>到期或提前退出日一次性分配收益，投资人购买本产品之本金及持有期收益将于下一工作日划入对应智能投账户。</td>
+                </tr>
+                <tr>
+                    <td>计息周期</td>
+                    <td>购买日至退出日（一年按365天计算）</td>
+                </tr>
+                <tr>
+                    <td>到期退出方式</td>
+                    <td>到期日自动退出。</td>
+                </tr>
+                <tr>
+                    <td>提前退出方式</td>
+                    <td>
+                        <p>
+                            本产品结束前支持提前退出。<br>
+                            投资人可于本产品成立日（不含）至结束日之间（含）的每个工作日15:00点前申请提前退出（15:00之后的申请需求视同下一工作日提交）。<br>
+                            购买本金及持有期收益将于申请日下一工作日划至购买账户。
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>费用</td>
+                    <td>
+                        加入费用：0.0%<br>
+                        管理费用：0.3%/年<br>
+                        退出费用：0.0%<br>
+                        提前退出费用：无（但会损失浮动收益）。<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>保障方式</td>
+                    <td></td>
+                </tr>
+                </tbody>
+            </table>
+    </div>
+    <div class="jPanel tab-pane" id="question">
+        <ul class="question">
+            <li>
+                <p>1.我有10000元，该如何加入金燕1号计划？</p>
+                <p>（1）预定加入</p>
+                <p class="indent">在发行期，支付10000元即成功加入金燕1号计划。</p>
+                <p>（2）开放加入</p>
+                <p class="indent">若运行期间产品规模未达到上限，您可以购买加入该计划。</p>
+                <p>注：您可以通过关注智能投官方微信、微博获取金燕1号计划发布信息。</p>
+            </li>
+            <li>
+                <p>2.金燕1号计划到期前可以提前结束么？</p>
+                <p>是的，计划到期前您可以在个人账户赎回金燕1号计划，持有期间获得固定收益率。</p>
+            </li>
+            <li>
+                <p>3.金燕1号计划到期后，我能直接拿回本金吗？</p>
+                <p>是的，计划到期当日，系统将自动将您的本金和收益分配到您的智能投账户。</p>
+            </li>
+            <li>
+                <p>4.金燕1号计划安全吗？</p>
+                <p>智能投以严谨负责的态度对每笔借款进行严格筛选。同时，债权人100%适用智能投本金保障计划。</p>
+            </li>
+        </ul>
+
+
+    </div>
+</div>
+</div>
+</div>
+<script id="template" type="x-tmpl-mustache">
+ <ul class="items">
+    <li>{{ name }}</li>
+    <li>{{ num }}</li>
+    <li>{{ date }}</li>
+    <li>{{ state }}</li>
+ </ul>
+</script>
+<script type="text/javascript" src="js/common/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/common/mustache.min.js"></script>
+<script type="text/javascript" src="js/common/highcharts.js"></script>
+<script type="text/javascript" src="js/common/jquery.pagination.js"></script>
+<script type="text/javascript" src="js/invest.js"></script>
+<!--EOF content -->
+
+
+<!-- footer -->
+<div class="footer">
+    <div class="footer-content">
+        <ul>
+            <li><a href="#" class="a1"></a></li>
+            <li><a href="#" class="a2"></a></li>
+            <li><a href="#" class="a3"></a></li>
+            <li><a href="#" class="a4"></a></li>
+        </ul>
+        <div class="copyright">
+            <span>智能投-科技改变投资</span>
+            <span>www.zhinengtou.com</span>
+            <span>©2014-2015 All Rights Reserved 京ICP备15003484</span>
+            <span>版权所有 市场有风险 投资需谨慎</span>
+        </div>
+    </div>
+</div>
+<!-- EOF footer-->
+<script type="text/javascript">
+    $(function () {
+        $(".top").click(function () {
+            $('body').animate({scrollTop: 0}, 700);
+        });
+    }());
+</script>
+</body>
+</html>

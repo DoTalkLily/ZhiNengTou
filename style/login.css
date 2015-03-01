@@ -1,0 +1,165 @@
+﻿.login{
+    background-color: #FF6D00;
+    margin-top: 30px;
+    height: 100%;
+}
+.login-wrapper{
+    width: 1000px;
+    margin: 0 auto 30px;
+    overflow: hidden
+}
+.login-form {
+    width: 573px;
+    height: 705px;
+    float: left;
+    background: url(../image/account/login_panel.png) no-repeat;
+    padding: 130px 110px 0;
+}
+.error-tip {
+    text-align: right;
+    font-size: 12px;
+    color: #d35352;
+    display: none;
+}
+.login-items li {
+    height: 60px;
+}
+.login-items input {
+    width: 350px;
+    color: #8a949c;
+    float: left;
+    height: 18px;
+    line-height: 18px;
+    border: none;
+    background-color: #e5e5e5;
+    padding: 20px 5px 20px 50px;
+}
+.login-items input,.radius3{
+    -moz-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+.username{
+    background: url(../image/account/login_username.png) no-repeat left center;
+}
+.password{
+    background: url(../image/account/login_passwd.png) no-repeat left center;
+}
+.verifycode{
+    background: url(../image/account/login_passwd.png) no-repeat left center;
+}
+.login-form .verifycode{
+    width: 191px;
+}
+.login-items .authcode {
+    margin-left: 5px;
+    float: left;
+    width: 104px;
+    height: 40px;
+}
+.login-items .refcode{
+    margin-left: 8px;
+    color: #349cd8;
+    height: 40px;
+    width: 42px;
+    float: left;
+    background: #e8ecef;
+    text-align: center;
+}
+.login-items .refcode:hover,.refcode:visited{
+    text-decoration: none;
+}
+.login-items .refcode i{
+    background-position: -102px -148px;
+    width: 12px;
+    height: 12px;
+}
+.icons {
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -9999px;
+    display: inline-block;
+    background: url(../image/common/sprites.png) no-repeat;
+}
+.remember{
+    height: 40px;
+}
+.remember input{
+    margin-top: 4px;
+    margin-right: 3px;
+    float: left;
+}
+.remember label {
+    float: left;
+    color: #5588bb;
+    font-weight: normal;
+}
+.yhelp {
+    background-position: -167px -98px;
+    width: 12px;
+    height: 12px;
+    margin-left: 4px;
+}
+.forget{
+    float: right;
+    color: #5588bb;
+}
+.login-button input {
+    background: #fe6e00;
+    width: 355px;
+    height: 50px;
+    line-height: 50px;
+    border: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.register{
+    margin-top: 18px;
+    text-align: right;
+}
+.ver-green-down {
+    background-position: -101px -129px;
+    width: 14px;
+    height: 16px;
+    vertical-align: top;
+    margin-right: 5px;
+}
+.security{
+    color: #8a949c;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.corporate{
+    padding-top: 10px;
+    border-top: 1px solid #CCC;
+    margin-top: 24px;
+    text-align: left;
+    color: #475058;
+}
+/**switch **/
+.adSwitch {
+    width: 300px;
+    height: 350px;
+    margin: 67px 0 0 70px;
+    float: left;
+}
+.carousel-inner img{
+    height: 108px;
+    width: 108px;
+    margin: 70px auto 0;
+
+}
+.carousel-control.left,.carousel-control.right{
+    background-image: none;
+}
+.description h2{
+    font-size: 18px;
+    padding-top: 23px;
+    font-weight: bold;
+}

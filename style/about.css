@@ -1,0 +1,216 @@
+.about{
+    background-color: #EFF3F6;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.about-content{
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin: 0 auto 50px;
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid #888B92;
+    width: 1000px;
+    min-height: 750px;
+    height: auto;
+    height: 750px;
+}
+.about .title{
+    position: relative;
+    height: 40px;
+    border-bottom: 1px solid #e7ecee;
+    clear: both;
+    margin: 0 30px;
+}
+.title h2{
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+    color: #69737b;
+    position: absolute;
+    left: 20px;
+    top: 24px;
+    z-index: 3;
+    padding: 0 15px;
+    background: #fff;
+}
+.sidenav{
+    width: 250px;
+    margin-right: 30px;
+    float: right;
+    padding: 30px 0 0 30px;
+    border-left: 1px solid #e8ecef;
+}
+.reg_btn{
+    margin: 0 auto 20px;
+    width: 155px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 20px;
+    letter-spacing: 4px;
+    background: #fe6e00;
+    color: #fff;
+    display: block;
+    text-align: center;
+}
+.sidenav .active {
+    color: #fe6e00;
+    text-decoration: none;
+}
+.sidenav .active:hover{
+   color: #fe6e00;
+}
+.sidenav li a {
+    float: left;
+    width: 208px;
+    height: 36px;
+    line-height: 36px;
+    border-bottom: 1px solid #f0f5f7;
+    text-align: center;
+    color: #224e73;
+    position: relative;
+    font-size: 1.2em;
+}
+.hasmore i,.mainsub i{
+    top: 14px;
+    left: 55px;
+    background: url(../image/about/sx.png) no-repeat;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -9999px;
+    display: inline-block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+}
+.sidenav .show i {
+    background-position: 0 -21px;
+}
+.sidenav .hide i {
+    background-position: 0 -12px;
+}
+.sidenav li a:hover {
+    color: #349cd8;
+}
+.submenu{
+    margin-left: 40px;
+    position: relative;
+    float: left;
+}
+.submenu li{
+    height: 30px;
+    line-height: 30px;
+    float: left;
+}
+.submenu li a{
+    width: 110px;
+    text-align: left;
+    border: none;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 50px;
+}
+.about i.ico {
+    top: 14px;
+    left: 40px;
+    width: 4px;
+    height: 4px;
+    background-position: 0 -32px;
+}
+.mainsub{
+    width: 623px;
+    text-align: left;
+    margin: 20px 0 0 63px;
+}
+.mainsub li a {
+    font-size: 2em;
+    line-height: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #626B72;
+    vertical-align: middle;
+    display: inline-block;
+    width: 535px;
+}
+.mainsub a:hover{
+    color:#349cd8;
+}
+.mainsub li {
+    list-style-type:disc;
+    height: 60px;
+    border-bottom: 1px solid #e7ecee;
+}
+.mainsub li span{
+    padding-right: 15px;
+    color: #a1acb4;
+    float: right;
+    width: 72px;
+    line-height: 60px;
+}
+.pagination{
+    margin-top: 29px;
+    float: right;
+}
+/** about detail style **/
+.back-btn{
+    height: 30px;
+    line-height: 30px;
+    width: 60px;
+    background: #e8ecef;
+    text-align: center;
+    text-indent: 10px;
+    color: #475058;
+    position: absolute;
+    left: 0;
+    top: 24px;
+    z-index: 5;
+    font-size: 14px;
+    -moz-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+.back h2{
+    left: 60px;
+}
+.back-btn .icons{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 7px;
+    height: 11px;
+    display: inline-block;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -9999px;
+    background: url(../image/common/sprites.png) no-repeat -82px -143px;
+}
+.jiathis_style {
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    background: #fff;
+}
+.share{
+    float: left;
+    display: inline;
+    font-size: 14px;
+    padding-top: 1px;
+    height: 16px;
+    line-height: 16px;
+}
+.content-post {
+    padding: 30px 0;
+    margin: 0 30px;
+    min-height: 450px;
+    height: auto;
+}
+.content-post h3{
+    text-align: left;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,161 @@
+@charset "utf-8";
+/*通用高度*/
+.common{
+    height: 480px;
+    width: 100%;
+    background: #FFF;
+    letter-spacing: 3px;
+    text-align: left;
+}
+/*通用宽高*/
+.common_h{
+    height: 480px;
+    width: 1024px;
+    margin: 0px auto;
+    position: relative;
+}
+/*通用标题*/
+.common_t{
+    font-size: 50px;
+    padding-top: 120px;
+    padding-left: 20px;
+}
+/*白色标题*/
+.w{
+    color: white;
+}
+/*黑色标题*/
+.b{
+    color: #464F59;
+}
+/************************************投资风控开始*/
+.control{
+    background: #ffd83e;
+}
+.control .control_con{
+    font-size: 36px;
+    line-height: 55px;
+    padding-top: 25px;
+}
+.control .control_con span{
+    color: #555555;
+    font-size: 30px;
+    letter-spacing: 1px;
+    padding-left: 5px;
+}
+/*右侧图片*/
+.control .control_pic{
+    top: 10px;
+    right: 0px;
+    width: 460px;
+    height: 460px;
+    position: absolute;
+    background: url(../image/security/control.png) no-repeat;
+}
+/************************************资金安全开始*/
+.safety{
+}
+.safety .safety_con{
+    color: #555555;
+    font-size: 30px;
+    line-height: 55px;
+    padding-top: 25px;
+}
+.safety .safety_con span{
+    color: #FFBB00;
+    font-size: 36px;
+    letter-spacing: 1px;
+    padding-right: 5px;
+}
+/*右侧图片*/
+.safety .safety_pic{
+    top: 10px;
+    right: 0px;
+    width: 460px;
+    height: 120px;
+    position: absolute;
+    padding-top: 340px;
+    background: url(../image/security/safety.png) no-repeat;
+}
+.safety .safety_pic p{
+    float: left;
+    width: 120px;
+    height: 30px;
+    color: #7E7E7E;
+    display: block;
+    font-size: 24px;
+}
+.safety .m_70{
+    margin-left: 70px;
+    _margin: 20px;
+}
+.safety .m_120{
+    margin-left: 120px;
+    _margin: 30px;
+}
+
+/************************************技术安全开始*/
+.technology{
+    background: #97D7FF;
+}
+.technology .technology_con{
+    font-size: 36px;
+    line-height: 55px;
+    padding-top: 25px;
+}
+.technology .technology_con span{
+    color: #555;
+    font-size: 30px;
+    letter-spacing: 1px;
+    padding-left: 5px;
+}
+/*右侧图片*/
+.technology .technology_pic{
+    top: 0px;
+    right: 0px;
+    width: 480px;
+    height: 480px;
+    position: absolute;
+    background: url(../image/security/technology.png) no-repeat;
+}
+
+/************************************审计安全开始*/
+.audit{
+}
+.audit .audit_con{
+    color: #555;
+    font-size: 30px;
+    line-height: 55px;
+    padding-top: 25px;
+}
+.audit .audit_con span{
+    color: #FFBB00;
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+/*右侧图片*/
+.audit .audit_pic{
+    top: 0px;
+    right: 0px;
+    width: 480px;
+    height: 120px;
+    position: absolute;
+    padding-top: 360px;
+    background: url(../image/security/audit.png) no-repeat;
+}
+.audit .audit_pic p{
+    float: left;
+    width: 100px;
+    height: 120px;
+    color: #7E7E7E;
+    display: block;
+    font-size: 24px;
+}
+.audit .m_90{
+    margin-left: 90px;
+    _margin:50px;/*ie6*/
+}
+.audit .m_140{
+    margin-left: 140px;
+    _margin:60px;/*ie6*/
+}

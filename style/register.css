@@ -1,0 +1,252 @@
+input:-webkit-autofill {-webkit-box-shadow: none;}
+.radius3{
+    -moz-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+.register{
+    background-color: #FF6D00;
+    height: 100%;
+    padding-top: 70px;
+}
+.register-wrapper{
+    width: 1025px;
+    height: 661px;
+    margin: 0 auto 30px;
+    background-color: #ffffff;
+    -moz-box-shadow:2px 7px 17px #B94E00;
+    -webkit-box-shadow:2px 7px 17px #B94E00;
+    box-shadow:2px 7px 17px #B94E00;
+}
+.reg-img{
+    width:125px;
+    height: 125px;
+    margin: -60px auto 0;
+}
+.reg-title{
+    color: #ff6d00;
+    font-size: 28px;
+    font-weight: normal;
+}
+.reg-steps {
+    height: 74px;
+    width: 924px;
+    margin: 25px auto 0;
+}
+.reg-steps li {
+    float: left;
+    width: 304px;
+    height: 44px;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 44px;
+    background-color: #D9D9D9;
+    margin-left: 4px;
+}
+.reg-steps li span{
+    margin-right: 10px;
+}
+.reg-steps .current{
+    height: 74px;
+    color: #FFF;
+    background: url(../image/account/reg_step_current.png) no-repeat;
+    margin-top: -7px;
+    line-height: 54px;
+}
+.reg-items{
+    width: 395px;
+    height: 409px;
+    min-height: 409px;
+    margin: -7px auto 0;
+}
+.reg-items li{
+    width: 617px;
+    float: left;
+    margin-top: 20px;
+}
+.reg-items input {
+    width: 342px;
+    color: #8a949c;
+    float: left;
+    height: 18px;
+    line-height: 18px;
+    border: none;
+    background-color: #e5e5e5;
+    padding: 11px 5px 11px 50px;
+}
+.username {
+    background: url(../image/account/reg_username.png) no-repeat left center;
+}
+.mobile{
+    background: url(../image/account/reg_cellphone.png) no-repeat left center;
+}
+.pwd{
+    background: url(../image/account/reg_passwd.png) no-repeat left center;
+}
+.authcode{
+    background: url(../image/account/reg_accesscode.png) no-repeat left center;
+}
+.reg-items .authcode{
+    width:196px;
+}
+.verifycode{
+    width: 90px;
+    height: 40px;
+    float: left;
+    margin-left: 5px;
+}
+.reg-items .refcode{
+    margin-left: 8px;
+    color: #349cd8;
+    height: 37px;
+    width: 42px;
+    float: left;
+    background: #e8ecef;
+    text-align: center;
+    padding-top: 3px;
+}
+.icons {
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -9999px;
+    display: inline-block;
+    background: url(../image/common/sprites.png) no-repeat;
+}
+.refresh-todo {
+    background-position: -102px -148px;
+    width: 12px;
+    height: 12px;
+}
+.agreement input{
+    width: 30px;
+}
+.agreement label,.agreement a{
+    float: left;
+    font-size: 14px;
+    line-height: 17px;
+}
+.agreement{
+    height: 20px;
+}
+.agreement a{
+    color: #fe6e00;
+}
+.register-btn{
+    width: 394px;
+    height: 46px;
+    margin: 0px auto;
+    background: #FF6C00;
+    display: inline-block;
+    line-height: 46px;
+    color: #ffffff;
+    font-size: 21px;
+    float: left;
+    border: 1px solid #FFD8AE;
+}
+.register-btn:hover{
+    background-color: #FF8500;
+    color: #ffffff;
+}
+.green-proper {
+    background-position: -116px -144px;
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin-top: 10px;
+}
+.reg-items .tip{
+    margin-left: 20px;
+    float: left;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    color: #ff0000;
+    text-align: left;
+}
+/** verify accont info **/
+.reg-steps .passed{
+    background-color: #FF6C00;
+    color: #ffffff;
+}
+.reg-verify{
+    width: 450px;
+    font-size: 14px;
+    margin: 0 auto;
+}
+.reg-cellnum{
+    text-align: left;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.reg-cellnum span{
+    color: #fe6e00;
+    margin-left: 15px;
+}
+.msg-code {
+    background: url(../image/account/reg_cellphone.png) no-repeat left center;
+}
+.msg-code{
+    width: 164px;
+    color: #8a949c;
+    float: left;
+    height: 18px;
+    line-height: 18px;
+    border: none;
+    background-color: #e5e5e5;
+    padding: 11px 5px 11px 50px;
+}
+.reg-message{
+    margin: 13px 0px;
+    display: none;
+}
+.radius3{
+    -moz-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+.input-area{
+    width: 545px;
+    height: 40px;
+    margin: 20px 10px 20px 0;
+}
+.input-area a{
+    display: inline-block;
+    background-color: #FF6C00;
+    width: 71px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 3px;
+    color: #ffffff;
+    float: left;
+    margin-left: 20px;
+}
+.input-area .tip{
+    margin-left: 10px;
+    float: left;
+    line-height: 40px;
+    color: #ff0000;
+}
+/** register success style **/
+.reg-success img{
+    width: 81px;
+    height: 78px;
+    margin-top: -7px;
+}
+.reg-success .success-tip{
+    font-size: 18px;
+    color: #fe6e00;
+    line-height: 50px;
+    text-align: center;
+}
+.reg-success p{
+    font-size: 14px;
+}
+.idnum{
+    background: url(../image/account/reg_idcard.png) no-repeat left center;
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <title>智能投</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <link rel="Shortcut Icon" href="image/common/favicon.ico"/>
+    <!-- common styles -->
+    <link rel="stylesheet" type="text/css" href="style/common/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="style/common/common.css"/>
+    <!-- common scripts -->
+    <script type="text/javascript" src="js/common/jquery-1.11.2.min.js"></script>
+</head>
+<body>
+<!-- header -->
+<div class="header">
+    <div class="header-content">
+        <div class="header-left">
+            <span>客服热线</span>
+            <span class="header-num">400-666-6666</span>
+            <a href="#" class="header-help">帮助中心</a>
+        </div>
+        <div class="header-right">
+            <a href="/user-register" class="header-register">免费注册</a>
+            <a href="/user-login" class="header-login">登录</a>
+        </div>
+    </div>
+</div>
+<!-- EOF header -->
+<!-- nav -->
+<div class="nav">
+    <!-- logo -->
+    <div class="nav-logo">
+        <div class="logo">
+            <a href="/"><img src="image/common/logo.png" alt=""/></a>
+        </div>
+        <span>科技改变投资</span>
+    </div>
+    <!-- EOF logo -->
+    <!-- nav bar -->
+    <div class="nav-content">
+        <ul>
+            <li><a href="/" class="active">首页</a></li>
+            <li><a href="/">新手指引</a></li>
+            <li><a href="/">安全保障</a></li>
+            <li><a href="/">关于我们</a></li>
+            <li class="nav-invest"><a href="/">我要投资</a></li>
+        </ul>
+    </div>
+    <!-- EOF nav bar -->
+</div>
+<!-- EOF nav-->
+<!-- QQ service -->
+<!--除了登录注册 基本所有页面都有这块，所以建议后端用变量控制显示隐藏-->
+<div class="qqkefu">
+    <ul>
+        <li class="top">TOP<span></span></li>
+        <li class="qq_cza">
+            <span></span>
+            <a href="tencent://message/?uin=1467037393&amp;Site=http://127.0.0.1/&amp;Menu=yes">咨询</a>
+        </li>
+        <li class="qq_czb">
+            <span></span>
+
+            <div class="erweima">
+                <p><img src="http://www.zhinengtou.com/app/Tpl/yooli/img/common/20140417172111_3368.jpg"/>手机网站</p>
+
+                <p><img src="http://www.zhinengtou.com/app/Tpl/yooli/img/common/20140417172211_5092.jpg"/>关注企业微信</p>
+                <i class="arrow3"></i>
+            </div>
+        </li>
+    </ul>
+</div>
+<!--EOF QQ service -->
+
+
+<!--content -->
+<link rel="stylesheet" href="style/common/pagination.css" />
+<link rel="stylesheet" href="style/about.css"/>
+<div class="about">
+    <div class="about-content">
+        <div class="title">
+            <h2>投资须知</h2>
+        </div>
+        <!--sidebar-->
+        <div class="sidenav">
+            <a class="reg_btn" href="/invest">立即投资</a>
+            <ul>
+                <li class="show hasmore">
+                    <a href="#" class="maintitle"><i></i>关于我们</a>
+                    <ul class="submenu">
+                        <li><a href="/about-team" class="active"><i class="ico"></i>团队介绍</a></li>
+                        <li><a href="/about-partner"><i class="ico"></i>合作伙伴</a></li>
+                    </ul>
+                </li>
+                <li><a href="/about-contactus"><i></i>联系我们</a></li>
+            </ul>
+        </div>
+        <!--/sidebar-->
+        <!--main-->
+        <div class="mainsub">
+            <ul></ul>
+            <div id="pagination" class="pagination"></div>
+        </div>
+    </div>
+</div>
+<script id="template" type="x-tmpl-mustache">
+     <li>
+         <a title="{{title}}" href="{{url}}">{{title}}</a>
+         <span>{{date}}</span>
+     </li>
+</script>
+<script type="text/javascript" src="js/common/mustache.min.js"></script>
+<script type="text/javascript" src="js/common/jquery.pagination.js"></script>
+<script type="text/javascript" src="js/about.js"></script>
+<!--EOF content -->
+
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="footer-content">
+            <ul>
+                <li><a href="#" class="a1"></a></li>
+                <li><a href="#" class="a2"></a></li>
+                <li><a href="#" class="a3"></a></li>
+                <li><a href="#" class="a4"></a></li>
+            </ul>
+            <div class="copyright">
+                <span>智能投-科技改变投资</span>
+                <span>www.zhinengtou.com</span>
+                <span>©2014-2015 All Rights Reserved 京ICP备15003484</span>
+                <span>版权所有 市场有风险 投资需谨慎</span>
+            </div>
+        </div>
+    </div>
+    <!-- EOF footer-->
+    <script type="text/javascript">
+        $(function () {
+            $(".top").click(function () {
+                $('body').animate({scrollTop: 0}, 700);
+            });
+        }());
+    </script>
+</body>
+</html>

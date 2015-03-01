@@ -1,0 +1,249 @@
+/** header nav footer qqkefu style**/
+/** header **/
+.header{
+    height: 40px;
+    background-color: #475058;
+}
+.header-content{
+    margin:0 auto;
+    width: 1024px;
+    height: 40px;
+    line-height: 40px;
+}
+.header-left{
+    width: 300px;
+    float: left;
+    font-size: 14px;
+    color: #8A949C;
+}
+.header-help,.header-help:hover{
+    text-decoration: none;
+    color: #ffffff;
+    padding-left: 10px;
+    border-left: 2px solid #8A949C;
+}
+.header-num{
+    font-size: 20px;
+    padding: 0 7px;
+}
+.header-right{
+    float: right;
+    width: 300px;
+    text-align: right;
+    padding-right: 26px;
+    font-size: 14px;
+}
+.header-right a:hover{
+    text-decoration: none;
+}
+.header-register,.header-register:hover{
+    color:#fc8936;
+    margin-right: 10px;
+}
+.header-login,.header-login:hover{
+    color:#349cd8
+}
+/** nav **/
+div.nav{
+    height: 80px;
+    width: 1024px;
+    color: #666666;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.nav-logo{
+    float: left;
+    height: 45px;
+    width: 360px;
+    text-align: left;
+}
+.nav-logo span{
+    line-height: 60px;
+    font-size: 20px;
+    border-left: 2px solid #666666;
+    padding-left: 10px;
+}
+.logo{
+    float: left;
+    margin-right: 15px;
+}
+.nav-content{
+    float: right;
+    height: 45px;
+    width: 544px;
+}
+.nav-content li{
+    float: left;
+    line-height: 60px;
+    padding: 0 13px;
+    font-size: 16px;
+}
+.nav-content a,.nav-content a:hover{
+    color: #666666;
+    text-decoration: none;
+}
+.nav-content .active{
+    color: #FF6600;
+    font-weight: 700;
+}
+.nav-invest a{
+    display: inline-block;
+    width: 89px;
+    height: 38px;
+    background-color: #FF3300;
+    line-height: 38px;
+    color: #ffffff;
+    border-radius: 2px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: bold;
+}
+.nav-invest a:hover{
+    background-color: #FF9000;
+    color:#ffffff;
+}
+/** footer **/
+.footer{
+    height: 260px;
+    background: #474E59;
+}
+.footer-content{
+    height: 165px;
+    width: 1024px;
+    margin: 0px auto;
+    padding-top: 95px;
+}
+.footer .a1{
+    width: 28px;
+    height: 28px;
+    background-position: -277px 0px;
+}
+.footer .a1:hover{
+    background-position: -277px -30px;
+}
+.footer .a2{
+    width: 60px;
+    height: 32px;
+    background-position: -305px 0px;
+}
+.footer .a2:hover{
+    background-position: -305px -39px;
+}
+.footer .a3{
+    width: 75px;
+    height: 28px;
+    background-position: -305px -80px;
+}
+.footer .a3:hover{
+    background-position: -305px -112px;
+}
+.footer .a4{
+    width: 75px;
+    height: 28px;
+    background-position: -235px -272px;
+}
+.footer .a4:hover{
+    background-position: -313px -272px;
+}
+.footer a{
+    float: left;
+    display: block;
+    margin-right: 20px;
+    background: url(../../image/common/sprites.png) no-repeat;
+}
+.footer ul{
+    width: 400px;
+    height: 50px;
+}
+.copyright{
+    color: #758192;
+    margin-top: 40px;
+    text-align: left;
+    font-size: 1.1em;
+}
+.copyright span {
+    margin-right: 10px;
+}
+/** qq service **/
+.qqkefu {
+    position: fixed;
+    bottom: 50%;
+    _position: absolute;
+    _top: expression(eval(document.documentElement.scrollTop + 265));
+    z-index: 20;
+    right: 0;
+    width: 45px;
+}
+.qqkefu li {
+    height: 45px;
+    width: 45px;
+    margin-bottom: 1px;
+    float: right;
+    background: #1b1b1d;
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+}
+.qqkefu li:hover{
+    background: #c9112c;
+}
+.qqkefu a{
+    color: #ffffff;
+    line-height: 45px;
+    margin-left: -10px;
+}
+.qqkefu span{
+    width: 45px;
+    height: 45px;
+    display: block;
+}
+.qqkefu .top{
+    color: #1c1c1c;
+    font-weight: 800;
+    text-align: center;
+    line-height: 45px;
+    background: #ffffff;
+}
+.qqkefu .top:hover{
+    background: #ffffff;
+}
+.qqkefu .top span{
+    position: absolute;
+    left: 0;
+    top: -5px;
+    height: 5px;
+    background: url(../../image/common/czx2.png) no-repeat center;
+}
+.qq_cza:hover{
+    width: 110px;
+}
+.qq_cza span{
+    background: url(../../image/common/czx4.png) no-repeat center;
+    float: left;
+}
+.qq_czb span{
+    background: url(../../image/common/czx5.png) no-repeat center center;
+}
+.erweima{
+    width: 260px;
+    height: 150px;
+    position: absolute;
+    top: -107px;
+    left: -265px;
+    background: #FFF;
+    border: 1px solid #CCC;
+    display: none;
+}
+.erweima img{
+    width: 117px;
+    height: 117px;
+    margin: 10px 10px 0px 10px;
+}
+.erweima p {
+    line-height: 14px;
+    color: #000;
+    font-size: 12px;
+    text-align: center;
+    float: left;
+    width: 130px;
+}
